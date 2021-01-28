@@ -38,7 +38,7 @@ def train_model(model, X_train, y_train, name, config):
     df.to_csv('model/' + name + ' loss.csv', encoding='utf-8', index=False)
 
 
-def train_seas(models, X_train, y_train, name, config):
+def train_saes(models, X_train, y_train, name, config):
     """train
     train the SAEs model.
 
@@ -102,7 +102,7 @@ def main(argv):
     if args.model == 'saes':
         X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1]))
         m = model.get_saes([12, 400, 400, 400, 1])
-        train_seas(m, X_train, y_train, args.model, config)
+        train_saes(m, X_train, y_train, args.model, config)
 
 
 if __name__ == '__main__':
