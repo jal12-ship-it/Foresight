@@ -104,6 +104,6 @@ def main(argv):
         m = model.get_saes([12, 400, 400, 400, 1])
         train_saes(m, X_train, y_train, args.model, config)
 
-
+model.summary()
 if __name__ == '__main__':
     main(sys.argv)
