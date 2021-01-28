@@ -26,7 +26,7 @@ def train_model(model, X_train, y_train, name, config):
     """
 
     model.compile(loss="mse", optimizer="rmsprop", metrics=['mape'])
-    # early = EarlyStopping(monitor='val_loss', patience=30, verbose=0, mode='auto')
+    early = EarlyStopping(monitor='val_loss', patience=30, verbose=0, mode='auto')
     hist = model.fit(
         X_train, y_train,
         batch_size=config["batch"],
@@ -51,7 +51,7 @@ def train_seas(models, X_train, y_train, name, config):
     """
 
     temp = X_train
-    # early = EarlyStopping(monitor='val_loss', patience=30, verbose=0, mode='auto')
+    early = EarlyStopping(monitor='val_loss', patience=30, verbose=0, mode='auto')
 
     for i in range(len(models) - 1):
         if i > 0:
