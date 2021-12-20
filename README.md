@@ -67,3 +67,4 @@ See [LICENSE](LICENSE) for details.
 
 
 https://www.quora.com/What-are-some-good-ideas-for-final-year-B-Tech-projects-in-CSE
+https://www.quora.com/I-am-a-B-Tech-computer-science-major-undergraduate-I-want-to-help-the-farmers-of-India-so-that-they-can-have-a-better-life-What-are-my-options-and-what-things-can-I-do-to-achieve-this
