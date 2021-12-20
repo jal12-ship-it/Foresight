@@ -66,5 +66,4 @@ These are the details for the traffic flow prediction experiment.
 See [LICENSE](LICENSE) for details.
 
 
-
-https://www.quora.com/I-am-a-final-year-CSE-student-How-should-I-start-with-my-project
+https://www.quora.com/What-are-some-good-ideas-for-final-year-B-Tech-projects-in-CSE
